@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 21, 2017, 12:10:04 PM
+    Author     : Koustabh
+*/
+body{
+    margin: 0px;
+    background: url('knjige.jpg');
+}
+.container {
+    overflow: auto;
+    background: #333;  
+    font-family: Arial;
+    
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.container .a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 340px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content .a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.btn{
+	 background:#333;
+	 color:#FFF;
+	 border-bottom-style:none;
+	 padding-top:10px;
+	  padding-bottom:10px;
+	  padding-left:40px;
+	  padding-right:40px;
+	 text-align:center;
+	  height:20px;
+	 }
+ .btn:hover {
+	 -webkit-background:#0FF;
+	 -webkit-border-radius:5px;
+	 background:#0FF;
+	 border-radius:5px;
+ }
+ .login{
+	 text-align:center;
+	float:right;
+	margin-right:5%;
+	
+	}
+      
+        .exam1 {
+            
+            background: whitesmoke;
+            width: 600px;
+            height:  auto ; 
+            margin-top: 5%;
+            margin-left: 35%;
+        }       

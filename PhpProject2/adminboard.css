@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 22, 2017, 10:21:44 PM
+    Author     : Koustabh
+*/
+body {
+    margin: 0px;
+    background:url('knjige.jpg');
+}
+.container {
+    width: 100%;
+    height: 100px;
+    border: 0px solid ;
+    background: linear-gradient(to right, #33ccff , #ff99cc );
+    
+     -webkit-border: 0px solid ;
+    -webkit-background: linear-gradient(to right, #33ccff , #ff99cc );
+    
+    -o-border: 0px solid ;
+    -o-background: linear-gradient(to right, #33ccff , #ff99cc );
+    
+    -moz-border: 0px solid ;
+    -moz-background: linear-gradient(to right, #33ccff , #ff99cc );
+}
+
+.header {
+   float: left;
+   width: 400px;
+   height: 100px;
+   background-color: transparent;
+   margin-left: 1%;
+   
+   -webkit-border: 0px solid;
+   -webkit-width: 400px;
+   -webkit-height: 100px;
+   -webkit-background-color: transparent;
+   -webkit-margin-left: 1%;
+   -webkit-border: 0px solid;
+   
+   -o-width: 400px;
+   -o-height: 100px;
+   -o-background-color: transparent;
+   -o-margin-left: 1%;
+   -o-border: 0px solid;
+   
+   -moz-width: 400px;
+   -moz-height: 100px;
+   -moz-background-color: transparent;
+  -moz-margin-left: 1%;
+   -moz-border: 0px solid;
+}
+
+.header1 {
+    float: right;
+    width: 400px;
+}
+.loggedin {
+    float: left;
+    width: 150px;
+    background-color: transparent;
+    margin-left: 1%;
+}
+
+.loggedin1 {
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    margin-right: 2%;
+    margin-top: 10%;
+}
+
+.btn1{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #0FF;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px grey;
+  font-size: 18px;
+}
+
+.btn1:hover {
+    background: lawngreen;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.body1 {
+    width: 100%;
+     height: 340px;
+    border: 0px solid ;
+   background: transparent;
+    margin-top: 3%;
+    
+}
+
+.insert {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 30%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    box-shadow: 4px 4px 4px grey ; 
+}
+
+.update {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 30%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    margin-top: 4%;
+    box-shadow: 4px 4px 4px grey ; 
+}
+
+.delete {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 30%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    margin-top: 4%;
+    box-shadow: 4px 4px 4px grey ; 
+}
+
+.qs {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 30%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    box-shadow: 4px 4px 4px grey ;
+    margin-top: 4%;
+}
+a {
+   height: 30px;
+   border: 1px solid;
+   margin-top: 15px;
+   text-align: center;
+   text-decoration: none;
+   margin-left: 10%;
+   margin-top: 5%;
+   border-style: none;
+}
+
+
+.insert:hover {
+    background: #7fffd4;
+     box-shadow: 2px 2px 2px grey ;    
+}
+
+.update:hover {
+    background: #7fffd4;
+     box-shadow: 2px 2px 2px grey ;    
+}
+
+.delete:hover {
+    background: #7fffd4;
+    box-shadow: 2px 2px 2px grey ;     
+}
+
+.qs:hover {
+   background: #7fffd4;
+    box-shadow: 2px 2px 2px grey ; 
+}

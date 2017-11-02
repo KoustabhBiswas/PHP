@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url("knjige.jpg");
+        -webkit-background: url("knjige.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+        
+}
+
+ 
+.formdiv {
+	width:100%;
+	border-radius:7px;
+	height:600px;
+	margin-top:2%;
+	background-color:transparent;
+	
+}
+.formdiv1 {
+	-webkit-width:700px;
+	-webkit-height:580px;
+	width:700px;
+	height:510px;
+	text-align:center;
+	margin-left:150px;
+	margin-top:2%;
+	background:linear-gradient(to bottom, #8A8A8A, #EAEAEA);
+	color:#00F;
+	font-family:"Courier New", Courier, monospace;
+	font-size:16px;
+	border:double;
+	text-shadow:2px 2px 2px #999;
+	box-shadow:5px 5px 5px grey;
+	border:none;
+	border-radius:7px;
+}
+ 
+.reg {
+	padding-left:20px;
+	padding-right:20px;
+	border-bottom-style:groove;
+	border-top-style:hidden;
+	border-left-style:hidden;
+	border-right-style:hidden;
+	border-bottom-color:#C03;
+	background-color:transparent;
+	color:#B00;
+	font-size:16px;
+	
+}
+.username {
+	 font-size:12px;
+	 font-family:Verdana, Geneva, sans-serif;
+ }
+ .user {
+	 border-radius:6px;
+	 border-bottom-style:solid;
+	 border-top-style:hidden;
+	 border-left-style:hidden;
+	 border-right-style:hidden;
+	 border-bottom-color:#CC0000;
+	 width:200px;
+	 text-align:center;
+	 background-color:transparent;
+	 font-size:16px;
+ }
+  
+  .mail {
+	 font-size:12px;
+	 font-family:Verdana, Geneva, sans-serif;
+ }
+ .e {
+	  border-radius:6px;
+	 border-bottom-style:groove;
+	 border-top-style:hidden;
+	 border-left-style:hidden;
+	 border-right-style:hidden;
+	 border-bottom-color:#CC0000;
+	 background-color:transparent;
+	  width:190px;
+	   text-align:center;
+	 font-size:16px;
+ }
+ 
+ .password {
+	  border-radius:6px;
+	 border-bottom-style:solid;
+	 border-top-style:hidden;
+	 border-left-style:hidden;
+	 border-right-style:hidden;
+	 border-bottom-color:#CC0000;
+	 background-color:transparent;
+	  width:190px;
+	  text-align:center;
+	  font-size:16px;
+ }
+ .fone {
+	  border-radius:6px;
+	 border-bottom-style:solid;
+	 border-top-style:hidden;
+	 border-left-style:hidden;
+	 border-right-style:hidden;
+	border-bottom-color:#CC0000;
+	 background-color:transparent;
+	  width:190px;
+	  text-align:center;
+ }
+ .sub {
+	 border-radius:5px;
+	  border-bottom-style:solid;
+	 border-top-style:hidden;
+	 border-left-style:hidden;
+	 border-right-style:hidden;
+	 padding:10px 10px 10px 10px;
+	 background:#999;
+	 font-size:16px;
+ }
+ .sub:hover{
+	 background:#0F9;
+	 box-shadow:3px 3px 3px grey;
+	 }
+ .btn{
+	 background:#333;
+	 color:#FFF;
+	 border-bottom-style:none;
+	 padding-top:10px;
+	  padding-bottom:10px;
+	  padding-left:40px;
+	  padding-right:40px;
+	 text-align:center;
+	  height:20px;
+	 }
+ .btn:hover {
+	 -webkit-background:#0FF;
+	 -webkit-border-radius:5px;
+	 background:#0FF;
+	 border-radius:5px;
+ }
+ .login{
+	 text-align:center;
+	float:right;
+	margin-right:5%;
+	
+	}

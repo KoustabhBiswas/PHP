@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2017, 7:28:24 PM
+    Author     : Koustabh
+*/
+
+body {
+    margin: 0px;
+    background: url('knjige.jpg');
+}
+
+.maindiv {
+    width: 99.8%;
+    height: 90px;
+    background: #7fffd4;
+}
+
+.header {
+    float: left ;
+    width: 400px;
+    height: 90px;
+    color: goldenrod ;
+    text-shadow: 3px 3px 3px grey; 
+    margin-left: 32%;
+}
+
+.logmaindiv {
+    float: right ; 
+    width: 300px;
+    height: 90px ;
+}
+
+.logdiv {
+    float: left ; 
+     
+   margin-right: 20%;
+   
+}
+
+
+.body1 {
+    float: left;
+    width: 600px;
+   
+    margin-left: 28%;
+    margin-top: 2%;
+    background-color: #FFF ;
+    
+    
+}
+
+
+.body1 {
+    width: 50%;
+     height: 340px;
+    border: 0px solid ;
+   background: transparent;
+    margin-top: 3%;
+    
+}
+
+.insert {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 20%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    box-shadow: 4px 4px 4px grey ; 
+}
+
+.update {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 20%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    margin-top: 4%;
+    box-shadow: 4px 4px 4px grey ; 
+}
+
+.delete {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 20%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    margin-top: 4%;
+    box-shadow: 4px 4px 4px grey ; 
+}
+
+.qs {
+    width: 300px;
+    height: 30px;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    margin-left: 20%;
+    font-size: 20px;
+    background: aqua;
+    border-style: none;
+    box-shadow: 4px 4px 4px grey ;
+    margin-top: 4%;
+}
+a {
+   height: 30px;
+   border: 1px solid;
+   margin-top: 15px;
+   text-align: center;
+   text-decoration: none;
+   margin-left: 10%;
+   margin-top: 5%;
+   border-style: none;
+}
+
+
+.insert:hover {
+    background: #7fffd4;
+     box-shadow: 2px 2px 2px grey ;    
+}
+
+.update:hover {
+    background: #7fffd4;
+     box-shadow: 2px 2px 2px grey ;    
+}
+
+.delete:hover {
+    background: #7fffd4;
+    box-shadow: 2px 2px 2px grey ;     
+}
+
+.qs:hover {
+   background: #7fffd4;
+    box-shadow: 2px 2px 2px grey ; 
+}

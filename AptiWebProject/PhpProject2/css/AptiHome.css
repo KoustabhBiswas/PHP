@@ -1,0 +1,129 @@
+.logical{
+	color: red;
+	margin-left:4%;
+	margin-top: 1%; 
+	font-size:16px;
+
+}
+.logical_link{
+	padding-left: 10px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:10px;
+	color: white;
+}
+.logical_link:hover {
+	background-color:red;
+	color:white;
+}
+  
+ .c{
+	background-color: #1a0000;
+	background: rgba(0,0,0,0.7);
+	height: 52px;
+ 
+ } 
+   .sighnIn{
+	margin-top: 1%;
+	margin-left:15%;
+	
+	
+   }
+   .register{
+	margin-top:1%;
+	margin-left: 2%;
+   }
+   
+   .sighnIn_link{
+	padding-left: 30px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-right:30px;
+	background-color: red;
+	border-radius:5px;
+	background-color: #00ffff;
+   }
+   .sighnIn_link:hover{
+	background-color: #D8EA90;
+   }
+   
+   .back_image{
+	background-image: url(../imac2.png);
+	width:100%; 
+	height: 390px; 
+	background-repeat: no-repeat; 
+	background-position: absolute;
+	 
+   }
+   .take_test{
+	font-size: 24px;
+	color: #ffffff;
+	margin-left: 15%;
+   }
+   .demo{
+	background-color: black;
+	background: rgba(0,0,0,0.6);
+	position: relative;
+	top: 190px;
+	left: 450px;
+	width: 400px;
+	height: 130px;
+   }
+   
+   .try_test_btn{
+	   background-color: #3a84ac;
+	   padding-left: 20px;
+	   padding-right: 20px;
+	   padding-bottom: 5px;
+	   padding-top: 5px;
+	   color: white;
+	   margin-top: 7%;
+	   margin-left: 27%;
+	   font-size: 16px;
+   }
+   .try_test_btn:hover{
+	   background-color: #86c46b;
+	   color: white;
+   }
+   .shortcut_navbar{
+	   height:70px;
+	   background-color:#445F7E;
+	   position:absolute;
+	   top:440px;
+	    
+   }
+   .container_div{
+	   margin-left:20%;
+	   
+	   margin-top:-0.9%;
+		border-radius:50%;
+		width:95px;
+		height: 93px;
+	    
+   }
+   .text_div{
+	 background-color: white;  
+	 margin-top:3%;
+	 margin-right: 24%; 
+	 border-radius: 50%;
+	 width: 90px;
+	 height:90px;
+	  border:5px dashed  #B2D732;  
+   }
+   .container_div:hover .text_div  {
+	   transition: 1.0s;
+	   transform: rotate(360deg);
+	   background-color:#ECD16F;
+	    border:5px dashed  black;
+		color: #EDEFE6;
+   }
+   a{
+	   text-decoration: none;
+   
+   }
+   a:hover{
+	   text-decoration: none;
+   }
+   
+   
+   

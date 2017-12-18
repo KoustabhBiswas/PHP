@@ -22,8 +22,10 @@ if(isset($_POST['pass']) && isset($_POST['user_name'])){
         $qry = mysqli_query($conn, $sql);
          
         if(mysqli_num_rows($qry)==0){
-           // $_SESSION['admin_name'] = $user1;
-   header("location: ../index.php");
+             // $_SESSION['admin_name'] = $user1;
+            //echo '<script>alert("Invalid");</script>';
+            
+             header("location: ../Admin/admin.php");
         }else {
           // $data= mysqli_fetch_assoc($qry);
             $_SESSION["name"] = $user;

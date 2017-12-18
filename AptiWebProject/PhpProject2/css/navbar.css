@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2017, 3:01:58 AM
+    Author     : Koustabh
+*/
+
+.logical{
+	color: red;
+	margin-left:4%;
+	margin-top: 1%; 
+	font-size:16px;
+        border: 0px solid blue;
+}
+.logical_link{
+	 
+       /* padding: 10px 20px;*/
+	color: white;
+}
+.logical_link:hover {
+	background-color:red;
+	color:white;
+}
+  
+ .c{
+	background-color: #1a0000;
+	background: rgba(0,0,0,0.7);
+	height: 52px;
+ 
+ } 
+   .sighnIn{
+	margin-top: 1%;
+	 margin-left:15%; 
+	
+	
+   }
+   .register{
+	margin-top:1%;
+	 margin-left: 2%;
+   }
+   
+   .sighnIn_link{
+	padding-left: 30px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-right:30px;
+	background-color: red;
+	border-radius:5px;
+	background-color: #00ffff;
+   }
+   .sighnIn_link:hover{
+	background-color: #D8EA90;
+   }
+  /*@media only screen and (min-width: 968px)  {
+       .sighnIn{
+           margin-left: 15%;
+           
+       }
+       .sighnIn_link{
+           color: red;
+            
+       }
+        
+   }
+   
+    @media only screen and (min-width: 568px)  and (max-width: 968px){
+       .sighnIn{
+           margin-right: 0%;
+           margin-left: 2%;
+       }
+       .sighnIn_link{
+           color: red;
+            
+       }
+       .logical{
+           margin-left: 2%;
+       }
+       .register{
+	margin-top:0%;
+	margin-right: 0%;
+        margin-left: 2%;
+   }
+        
+   }*/

@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 18, 2017, 9:10:02 PM
+    Author     : Koustabh
+*/
+.mainDiv{
+	background-image: url("../images/registration_back.jpg") ;
+	 background-repeat: no-repeat;
+	 background-attachment: scroll;
+    background-position: inherit; 
+	background-size:100%;
+        
+ }
+form{
+	background: rgba(0,0,0,0.4);
+	margin-top:5%;
+	margin-left:25%;
+        margin-bottom: 1.5%;
+	height:auto;
+        border-radius:7px ;
+	box-shadow:4px 4px 6px #77929C, 0px 2px 20px #77929C;
+}
+label{
+	color:white;
+}
+input[type="text"] {
+	background-color:rgba(0,0,0,-1);
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: white;
+	text-align: center;
+	font-family:Atma;
+	font-size:20px;
+}
+
+input[type="password"] {
+    background-color: rgba(0,0,0,-1);
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: white;
+	text-align: center;
+	font-family:Atma;
+	font-size:20px;
+}
+.registerbtn{
+	background-color:#0099ff;
+	border-style: none;
+	border-radius:7px ;
+	color:white;
+	padding: 10px 40px;
+	margin-top:2.5%;
+        margin-bottom: 2.5%;
+	font-style: oblique;
+	font-size: 17px;
+	margin-left:35%;
+	box-shadow: 2px 2px 6px 3px grey;
+}
+.registerbtn:hover{
+	background-color:#4dff4d;
+	box-shadow: 0px 0px 0px 0px grey;
+	
+}
+ .form{
+	
+	 height:auto;
+ }
+ .form-content{
+	 margin-top:3%;
+ }
+
+ 
+ 

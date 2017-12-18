@@ -1,35 +1,14 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-
-<!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <link rel="stylesheet" href="./css/AptiHome.css" >
-   <link rel="stylesheet" href="./css/navbar.css" >
-<style>
- /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Dec 6, 2017, 11:04:37 PM
-    Author     : Koustabh
-*/
-
-   @font-face{
-		font-family: MetalMacabre;
-		src: url(MetalMacabre.ttf);
-	}
+  <style>
+   
 	.leftnav a{
 		  float: left;
 		  display: block;
@@ -54,10 +33,6 @@ and open the template in the editor.
 		  text-align: center;
 		  padding: 14px 16px;
 		  text-decoration: none;
-			font-family: MetalMacabre;
-		  
-		  
-		  
 		  font-size: 17px;
 		  border:0px solid red;
 	}
@@ -145,22 +120,28 @@ and open the template in the editor.
 			font-size:17px;
 		}
 	}
-
-</style>
-<script>
-    $(document).ready(function(){
+  </style>
+  <script>
+	 
+		/*if(document.getElementById('id1').style.display == 'none'){
+			document.getElementById('id1').style.display = 'block';
+		}else{
+			document.getElementById('id1').style.display = 'none';
+		}*/
+		$(document).ready(function(){
 			$("#id1").click(function(){
 				$("#id2").toggle();
 			});
 		});
-</script>
+	 
+  </script>
 </head>
-<body  style="margin:0%;">
- <div class="container-fluid">
- <!-- Nav bar begins-->
- 
- 
-   <div class="row" style="background-color:#00001a">
+<body>
+
+  
+  
+ <!--<div class="container-fluid">-->
+ <div class="row" style="background-color:#00001a">
 	<div class="col-md-12 col-sm-12 col-xs-12  " >
 		<div class="col-md-7 col-sm-7 col-xs-7 leftnav">
 			<a href="">APTITUDE</a>
@@ -169,8 +150,8 @@ and open the template in the editor.
 			<a href="">Quantitive Aptitude</a>
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-3 rightnav">
-                    <a href="./User/login.php">Sign In</a>
-                    <a href="./User/register.php">Register</a>
+                    <a href="../User/login.php">Sign In</a>
+                    <a href="../User/register.php">Register</a>
 			 
 		</div>
 		<div class="responsive" ><button type="button" id="id1"  >&#9776;</button></div>
@@ -180,49 +161,11 @@ and open the template in the editor.
 		<a href="">Logical Reasoning</a>
 			<a href="#" >Verbal Reasoning</a>
 			<a href="">Quantitive Aptitude</a>
-                        <a href="./User/login.php">Sign In</a>
+                        <a href="../User/login.php">Sign In</a>
                         <a href="./User/register.php">Register</a>
 	</div>
  </div>
- <!-- nav bar ends -->
- <div class="row">
-	<div class="col-md-12 back_image" >
-		 <div class="col-md-6 demo">
-			<p class="take_test">Practice Aptitude Tests</p>
-			<a href="#" class="btn try_test_btn"> Try Test For Free</a>
-		 </div>
-		
-	</div>
-	<div class="col-md-12 col-sm-12 shortcut_navbar">
-		<div class="col-md-1 col-sm-1 container_div" >
-			<a href="#"><div class="text_div"   ><p style="margin-top: 22%; margin-left:13%;">Logical Reasoning<p></div></a>
-			<div class="col-md-1 hover_div">
-				
-			</div>
-		</div>		
-		
-		<div class="col-md-1 col-sm-1 container_div" >
-			<a href="#"><div class="text_div"><p style="margin-top: 22%; margin-left:13%;">Verbal Reasoning<p></div></a>
-			<div class="col-md-1 hover_div">
-				
-			</div>
-		</div>	
-		 
-		<div class="col-md-1 col-sm-1 container_div" >
-			<a href="#"><div class="text_div" style="" ><p style="margin-top: 22%; margin-left:13%;">Quantitive Aptitude<p></div></a>
-			<div class="col-md-1 hover_div">
-				
-			</div>
-		</div>	
-		 
-	</div>
-	
- </div>
- 
- 
- 
- </div>
-    <link rel="stylesheet" href="./css/AptiHome.css" >
-     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  
+    <link href="./navbar.css" rel="stylesheet"/>
 </body>
 </html>

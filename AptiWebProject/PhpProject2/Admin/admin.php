@@ -19,12 +19,12 @@
 	<div class="col-md-5"  style="margin-top:5%;">
 		<div class="form-group">
 			<label>UserName:</label>
-                        <input type="text" class="form-control" name="user_name"/>
+                        <input type="text" class="form-control" name="username"/>
                         <span></span>
 		</div>
 		<div class="form-group">
 			<label>Password:</label>
-                        <input type="password" class="form-control" name="pass"/>
+                        <input type="password" class="form-control" name="password"/>
 		</div>
 		<input type="submit" value="Log In" style="margin-left:37%;padding:3px 25px;color:white;border-radius:7px;border-style:none;background-color:#80dfff"/>
 	</div>

@@ -12,13 +12,13 @@ session_start();
  
 include '../resources/Connection.php';
 
-if(isset($_POST['pass']) && isset($_POST['user_name'])){
-    $user = $_POST['user_name'];
-    $pass = $_POST['pass'];
+if(isset($_POST['username']) && isset($_POST['password'])){
+    $user = $_POST['username'];
+    $pass = $_POST['password'];
     $user_err ="";
     $pass_err =  "";
     if (!empty($user) && !empty($pass)){
-        $sql= "SELECT * FROM `admin` WHERE admin_name = '$user' and admin_pass = '$pass' ";
+        $sql= "SELECT * FROM `admin` WHERE admin_username = '$user' and admin_pass = '$pass' ";
         $qry = mysqli_query($conn, $sql);
          
         if(mysqli_num_rows($qry)==0){

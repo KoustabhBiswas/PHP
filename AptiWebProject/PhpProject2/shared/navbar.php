@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-   
+      
 	.leftnav a{
 		  float: left;
 		  display: block;
@@ -21,7 +21,7 @@
 	}
 	
 	 
-	.leftnav a:hover{
+	.leftnav a:not(:first-child):hover{
 		background-color: red;
 	}
 	
@@ -141,30 +141,30 @@
   
   
  <!--<div class="container-fluid">-->
- <div class="row" style="background-color:#00001a">
+ 
 	<div class="col-md-12 col-sm-12 col-xs-12  " >
 		<div class="col-md-7 col-sm-7 col-xs-7 leftnav">
-			<a href="">APTITUDE</a>
-			<a href="">Logical Reasoning</a>
-			<a href="">Verbal Reasoning</a>
-			<a href="">Quantitive Aptitude</a>
+                    <a href="../index.php">APTITUDE</a>
+                        <a href="../Logical/logical_reasoning.php">Logical Reasoning</a>
+                        <a href="../Verbal/verbal_reasoning.php">Verbal Reasoning</a>
+                        <a href="../Quantitive/quant.php">Quantitive Aptitude</a>
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-3 rightnav">
-                    <a href="../User/login.php">Sign In</a>
-                    <a href="../User/register.php">Register</a>
+                    <a href="../User/login.php">Admin LogIn</a>
+                   <!-- <a href="../User/register.php">Register</a>-->
 			 
 		</div>
 		<div class="responsive" ><button type="button" id="id1"  >&#9776;</button></div>
 		
 	</div>
 	<div id="id2" class="col-md-12 col-sm-12 col-xs-12 responsive_nav" style="display: none;">
-		<a href="">Logical Reasoning</a>
-			<a href="#" >Verbal Reasoning</a>
-			<a href="">Quantitive Aptitude</a>
-                        <a href="../User/login.php">Sign In</a>
-                        <a href="./User/register.php">Register</a>
+            <a href="../Logical/logical_reasoning.php">Logical Reasoning</a>
+            <a href="../Verbal/verbal_reasoning.php" >Verbal Reasoning</a>
+            <a href="../Quantitive/quant.php">Quantitive Aptitude</a>
+                        <a href="../User/login.php">Admin LogIn</a>
+                        
 	</div>
- </div>
+ 
   
     <link href="./navbar.css" rel="stylesheet"/>
 </body>

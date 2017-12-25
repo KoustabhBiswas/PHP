@@ -9,7 +9,7 @@ and open the template in the editor.
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+<title>Apti Practice</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -25,7 +25,76 @@ and open the template in the editor.
     Created on : Dec 6, 2017, 11:04:37 PM
     Author     : Koustabh
 */
-
+body{
+     background-image: url('images/macbook-2600651.jpg');
+    background-position: inherit;
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-attachment:fixed;
+}
+.prac_test{
+	font-size: 44px;
+	color: #ffffff;
+	/*margin-left: 15%;*/
+        text-align: center;
+   }
+   .give_test{
+       font-size: 44px;
+	color: #ffffff;
+	margin-left: 35%;
+        text-align: center;
+   }
+   .give_test:hover{
+       color:rgb(0, 163, 204);
+   }
+   .body_h1{
+       font-size: 33px;
+       color: white;
+   }
+   .body_p{
+       font-size: 20px;
+       color: white;
+   }
+   
+   .body_main{
+       background-color: rgba(255, 117, 26,0.7);
+   }
+   .learn{
+       float: left;
+       text-align: center;
+       font-size: 20px;
+        
+       margin-top: 5%; 
+       margin-left: 30%;
+       border: 3px solid   #662900;
+       -o-border:3px solid;
+      -webkit-border: 3px dashed ;
+       border-radius: 5px;
+       background-color: rgba(204, 82, 0,0.8); 
+   }
+   .learn:hover{
+       background-color: rgba(0, 143, 179,0.7);
+       border-color: rgb(0, 61, 77);
+   }
+   span{
+       color: white;
+   }
+   .taketest{
+       float: left;
+       text-align: center;
+       font-size: 20px;
+       margin-top: 5%; 
+       margin-left: 30%;
+       border: 3px solid   #662900;
+       -o-border:3px solid;
+      -webkit-border: 3px dashed ;
+       border-radius: 5px;
+       background-color: rgba(204, 82, 0,0.8); 
+   }
+   .taketest:hover{
+       background-color: rgba(0, 143, 179,0.7);
+       border-color: rgb(0, 61, 77);
+   }
    @font-face{
 		font-family: MetalMacabre;
 		src: url(MetalMacabre.ttf);
@@ -42,7 +111,7 @@ and open the template in the editor.
 	}
 	
 	 
-	.leftnav a:hover{
+	.leftnav a:not(:first-child):hover{
 		background-color: red;
 	}
 	
@@ -99,16 +168,21 @@ and open the template in the editor.
 		.leftnav a{
 			 padding: 14px 3px;
 			color: white;
-			font-size: 12px; 
+			font-size: 12.7px; 
 			margin-left:1%;
 		}
 		.rightnav a{
 			 padding: 14px 3px;
 			color: white;
-			font-size: 12px; 
-			 
-			 
+			font-size: 12.7px; 
 		}
+                .prac_test{
+                    font-size: 44px;
+                }
+                .give_test{
+                    font-size: 44px;
+                }
+                
 	}
 	 
 	@media screen and   (min-width: 720px) and (max-width: 788px){
@@ -123,6 +197,12 @@ and open the template in the editor.
 			color: white;
 			font-size: 11.3px;
 		}
+                 .prac_test{
+                    font-size: 22px;
+                }
+                .give_test{
+                    font-size: 22px;
+                }
 	}
 	 
 	@media screen and   (max-width: 720px)  {
@@ -144,6 +224,12 @@ and open the template in the editor.
 			float:right;
 			font-size:17px;
 		}
+                 .prac_test{
+                    font-size: 22px;
+                }
+                .give_test{
+                    font-size: 22px;
+                }
 	}
 
 </style>
@@ -160,40 +246,114 @@ and open the template in the editor.
  <!-- Nav bar begins-->
  
  
-   <div class="row" style="background-color:#00001a">
+   <div class="row" style="  background: rgba(255, 117, 26,0.7);">
 	<div class="col-md-12 col-sm-12 col-xs-12  " >
 		<div class="col-md-7 col-sm-7 col-xs-7 leftnav">
-			<a href="">APTITUDE</a>
-			<a href="">Logical Reasoning</a>
-			<a href="">Verbal Reasoning</a>
-			<a href="">Quantitive Aptitude</a>
+                    <a href="./index.php">APTITUDE</a>
+                        <a href="./Logical/logical_reasoning.php">Logical Reasoning</a>
+                        <a href="./Verbal/verbal_reasoning.php">Verbal Reasoning</a>
+                        <a href="./Quantitive/quant.php">Quantitive Aptitude</a>
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-3 rightnav">
-                    <a href="./User/login.php">Sign In</a>
-                    <a href="./User/register.php">Register</a>
+                    <a href="./User/login.php">Admin LogIn</a>
+                    <!--<a href="./User/register.php">Register</a>-->
 			 
 		</div>
 		<div class="responsive" ><button type="button" id="id1"  >&#9776;</button></div>
 		
 	</div>
 	<div id="id2" class="col-md-12 col-sm-12 col-xs-12 responsive_nav" style="display: none;">
-		<a href="">Logical Reasoning</a>
-			<a href="#" >Verbal Reasoning</a>
-			<a href="">Quantitive Aptitude</a>
+            <a href="./Logical/logical_reasoning.php">Logical Reasoning</a>
+            <a href="./Verbal/verbal_reasoning.php" >Verbal Reasoning</a>
+            <a href="./Quantitive/quant.php">Quantitive Aptitude</a>
                         <a href="./User/login.php">Sign In</a>
                         <a href="./User/register.php">Register</a>
 	</div>
  </div>
- <!-- nav bar ends -->
+ <!-- nav bar ends  demo take_test-->
  <div class="row">
-	<div class="col-md-12 back_image" >
-		 <div class="col-md-6 demo">
-			<p class="take_test">Practice Aptitude Tests</p>
-			<a href="#" class="btn try_test_btn"> Try Test For Free</a>
-		 </div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="background-color: rgba(255, 117, 26,0.7); height: 300px auto;">
+		  
+			<p class="col-lg-12 col-md-12 col-sm-12 col-xs-12 prac_test">Learn & Practice Aptitude Questions</p>
+			<!--<a href="#" class="try_test_btn"> Try Test For Free</a>-->
+                        <a href="#" class="give_test"> Give Test for free </a>
 		
 	</div>
-	<div class="col-md-12 col-sm-12 shortcut_navbar">
+ </div>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <div class="row body_main">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
+             <div class="row">
+                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4   learn" style=" "><span>Learn</span></a>
+             </div>
+             <div class="row">
+                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 taketest" style=" "><span>Take a Test</span></a>
+        
+             </div>
+         </div>    
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
+             <h1 class="body_h1"  >Logical Reasoning</h1>
+             <p class="body_p"  >Logical Reasoning questions and answers with explanation for interview, 
+                 competitive examination and entrance test. Fully solved examples with 
+                 detailed answer description, explanation are given and it would be easy to understand</p>
+         </div>
+         
+     </div>
+ </div>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <div class="row body_main">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
+             <h3 class="body_h1">Verbal Reasoning</h3>
+             <p class="body_p">Verbal reasoning is understanding and reasoning using concepts framed in words.
+                 It aims at evaluating ability to think constructively, rather than at simple fluency
+                 or vocabulary recognition.</p>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
+             <div class="row">
+                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 learn"  ><span>Learn</span></a>
+             </div>
+             <div class="row">
+                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 taketest"  ><span>Take a Test</span></a>
+        
+             </div>
+         </div>
+     </div>
+ </div>
+ <br/>
+ <br/>
+ <br/>
+ <br/>
+ <div class="row body_main">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
+             <div class="row">
+                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 learn"  ><span>Learn</span></a>
+             </div>
+             <div class="row">
+                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 taketest"  ><span>Take a Test</span></a>
+        
+             </div>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
+             <h3 class="body_h1">Quantitive Aptitude</h3>
+             <p class="body_p">Quantitative Aptitude is one of the scoring subject, as it involves
+                 questions purely of numerical calculations relates to problems like
+                 arithmetic, graph and table reading, percentage analysis, categorization,
+                 quantitative analysis and more.</p>
+         </div>
+         
+     </div>
+ </div>
+ 
+	<!--<div class="col-md-12 col-sm-12 shortcut_navbar">
 		<div class="col-md-1 col-sm-1 container_div" >
 			<a href="#"><div class="text_div"   ><p style="margin-top: 22%; margin-left:13%;">Logical Reasoning<p></div></a>
 			<div class="col-md-1 hover_div">
@@ -217,12 +377,13 @@ and open the template in the editor.
 		 
 	</div>
 	
+ </div>-->
+ 
+ 
+ 
+ 
  </div>
- 
- 
- 
- </div>
-    <link rel="stylesheet" href="./css/AptiHome.css" >
+    <link rel="stylesheet" href="./css/AptiHome.css" />
      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 </body>
 </html>

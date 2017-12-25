@@ -19,24 +19,25 @@ include '../resources/Connection.php';
     }
 }*/
 
-if(isset($_POST['password']) && isset($_POST['username'])){
+if(isset($_POST['username']) && isset($_POST['password'])){
     $user = $_POST['username'];
     $pass = $_POST['password'];
     $user_err ="";
     $pass_err =  "";
     if (!empty($user) && !empty($pass)){
-        $sql= "SELECT * FROM `user` WHERE Email = '$user' and Password = '$pass' ";
+        $sql= "SELECT * FROM `admin` WHERE admin_username = '$user' and  
+admin_pass = '$pass' ";
         $qry = mysqli_query($conn, $sql);
          
         if(mysqli_num_rows($qry)==0){
              // $_SESSION['admin_name'] = $user1;
             //echo '<script>alert("Invalid");</script>';
             
-             header("location: ../User/login.php");
+             header("location: ../index.php");
         }else {
           // $data= mysqli_fetch_assoc($qry);
             $_SESSION["username"] = $user;
-             header("location: ../index.php");
+             header("location: ../Admin/Enter_qs.php");
             
         }
     } else {

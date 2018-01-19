@@ -255,7 +255,7 @@ body{
                         <a href="./Quantitive/quant.php">Quantitive Aptitude</a>
 		</div>
 		<div class="col-md-3 col-sm-3 col-xs-3 rightnav">
-                    <a href="./User/login.php">Admin LogIn</a>
+                    <a href="./Admin/admin.php">Admin LogIn</a>
                     <!--<a href="./User/register.php">Register</a>-->
 			 
 		</div>
@@ -266,8 +266,8 @@ body{
             <a href="./Logical/logical_reasoning.php">Logical Reasoning</a>
             <a href="./Verbal/verbal_reasoning.php" >Verbal Reasoning</a>
             <a href="./Quantitive/quant.php">Quantitive Aptitude</a>
-                        <a href="./User/login.php">Sign In</a>
-                        <a href="./User/register.php">Register</a>
+            <a href="./Admin/admin.php">Admin LogIn</a>
+                        
 	</div>
  </div>
  <!-- nav bar ends  demo take_test-->
@@ -288,7 +288,7 @@ body{
      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
              <div class="row">
-                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4   learn" style=" "><span>Learn</span></a>
+                 <a href="./Logical/logical_reasoning.php" class="col-lg-4 col-md-4 col-sm-4 col-xs-4   learn" style=" "><span>Learn</span></a>
              </div>
              <div class="row">
                  <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 taketest" style=" "><span>Take a Test</span></a>
@@ -318,7 +318,7 @@ body{
          </div>
          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
              <div class="row">
-                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 learn"  ><span>Learn</span></a>
+                 <a href="./Verbal/verbal_reasoning.php" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 learn"  ><span>Learn</span></a>
              </div>
              <div class="row">
                  <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 taketest"  ><span>Take a Test</span></a>
@@ -335,7 +335,7 @@ body{
      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style=" ">
              <div class="row">
-                 <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 learn"  ><span>Learn</span></a>
+                 <a href="./Quantitive/quant.php" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 learn"  ><span>Learn</span></a>
              </div>
              <div class="row">
                  <a href="#" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 taketest"  ><span>Take a Test</span></a>

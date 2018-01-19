@@ -80,7 +80,7 @@ and open the template in the editor.
 			 <div class="col-xs-10 col-sm-10 col-md-10 common">
                              <a href="./enter_quan_qs.php" class="col-xs-12 col-sm-12 col-md-12 question">Enter Quantitive Reasoning Questions</a>
 			</div>
-                        <div class="col-xs-10 col-sm-10 col-md-10 common">
+                        <!--<div class="col-xs-10 col-sm-10 col-md-10 common">
                              <a href="./update_quan_qs.php" class="col-xs-12 col-sm-12 col-md-12 question"> Quantitive Reasoning Questions</a>
 			</div>
 			<div class="col-xs-10 col-sm-10 col-md-10 common">
@@ -88,7 +88,7 @@ and open the template in the editor.
 			</div>
                         <div class="col-xs-10 col-sm-10 col-md-10 common">
                              <a href="./update_logical_qs.php" class="col-xs-12 col-sm-12 col-md-12 question"> Logical Reasoning Questions</a>
-			</div>
+			</div>-->
 		</div>
 	</div>
 </div>

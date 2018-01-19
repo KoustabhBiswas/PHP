@@ -16,7 +16,8 @@ and open the template in the editor.
         <?php
         require 'connect.php';
          
-	 if(isset($_POST['username']) && isset($_POST['mail1']) && isset($_POST['pass1']) && isset($_POST['fon1']) ){
+	 if(isset($_POST['username']) && isset($_POST['mail1']) 
+		            && isset($_POST['pass1']) && isset($_POST['fon1']) ){
 	 $user_name = $_POST['username'];
 	 $Email = $_POST['mail1'];
 	 $password = $_POST['pass1'];
